@@ -1,0 +1,40 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}摘要 (Abstract) - 研究成果的高度凝练}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}引言 (Introduction)}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}宏观背景：植入式医疗设备的范式转变}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}技术选型分析：现有无线技术的局限性与GCC的优势}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}研究问题的聚焦：以多腔起搏器为极限测试场景}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}核心科学问题：心内信道双重动态特性的解构}{4}{}\protected@file@percent }
+\newlabel{sec:core_problem}{{2.4}{4}{核心科学问题：心内信道双重动态特性的解构}{subsection.2.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}第一重挑战：健康节律下的“周期性”信道波动 (可预测的干扰)}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 图解第一重挑战：健康心动周期中，ECG电活动与心室容积变化（代表信道变化）之间的规律性与可预测性。}}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}第二重挑战：病理节律下的“非周期性”信道衰落 (不可预测的灾变)}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 图解第二重挑战：房室传导阻滞模型，P波后QRS波“丢失”，导致心动周期和信道状态的突然中断。}}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}本文的解决方案与主要学术贡献}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}方法学 (Methodology)}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}自适应接收机系统架构的硬件实现}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 自适应接收机系统架构图，展示了从Preamp到VGA，再到RSSI和2-DOF数字控制核心，最终驱动SRR的完整信号与控制流。}}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}2-DOF 控制算法的形式化描述与实现细节}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}双路径实验验证体系的构建}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 实验验证平台与BER测试链路照片。}}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}实验结果与分析}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}论证一：信道动态特性的定量表征——证明问题的客观存在与严峻性}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 信道增益的动态特性：(a) 健康心律下呈现高达10-15dB的周期性波动；(b) 病理心律下则转为不规则、更深度的突发性衰落。}}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}论证二：AGC系统的基础有效性验证——证明基础对策的必要性}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces AGC系统的基本稳幅效果：与无控制的输入信号(b)相比，经AGC稳定后的信号(d)幅度被精确钳位在目标值，波动被抑制在1\%以内。}}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}论证三：2-DOF策略在瞬态响应上的优越性——证明本文方案的核心优势}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 15dB信道阶跃下的单次瞬态响应对比。}}{10}{}\protected@file@percent }
+\newlabel{fig:step_single}{{7}{10}{论证三：2-DOF策略在瞬态响应上的优越性——证明本文方案的核心优势}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 瞬态性能指标的定量统计对比。}}{10}{}\protected@file@percent }
+\newlabel{fig:step_bar}{{8}{10}{论证三：2-DOF策略在瞬态响应上的优越性——证明本文方案的核心优势}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}论证四：端到端通信可靠性的最终验证——展示最终成果}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces BER性能对比。左轴：误码率；右轴：相对No-AGC的性能提升因子。}}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}讨论与结论 (Discussion \& Conclusion) - 成果的总结、定位与展望}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}核心科学贡献的重申}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}与相关工作的比较与定位}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}与相关工作的比较与定位：凸显本研究的独特性}{12}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 与相关接收机原型机的性能对比}}{12}{}\protected@file@percent }
+\newlabel{tab:comparison_summary}{{1}{12}{与相关工作的比较与定位：凸显本研究的独特性}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}研究的局限性与未来展望}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}总结性陈述 (Concluding Remarks)}{12}{}\protected@file@percent }
+\gdef \@abspage@last{12}
